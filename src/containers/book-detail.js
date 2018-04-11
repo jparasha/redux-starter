@@ -6,7 +6,6 @@ class BookDetail extends Component{
         if(!this.props.book){
             return<div>Select a book to get started</div>;
         }
-        console.log(this.props.book);
         return(
             <div>
                 <h3>Details for:</h3>
