@@ -1,11 +1,12 @@
-import React, { Component } from'react';
-import { connect } from'react-redux';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 class BookDetail extends Component{
     render (){
         if(!this.props.book){
             return<div>Select a book to get started</div>;
         }
+        console.log(this.props.book);
         return(
             <div>
                 <h3>Details for:</h3>
@@ -17,7 +18,7 @@ class BookDetail extends Component{
 }
 function mapStateToProps (state) {
     return {
-        books: state.activeBook
+        book: state.activeBook
     };
 }
 ////
