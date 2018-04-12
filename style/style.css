@@ -6,9 +6,13 @@ body{
 
 .list-group-item {
     background-color: transparent !important;
-    padding: 5% !important;
+    padding: 10% 5% !important;
     cursor: pointer;
 }
 .list-group-item:hover {
     background-color: rgb(71, 70, 70) !important;
+}
+
+.list-group {
+    padding-right: 15% !important;
 }
