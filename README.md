@@ -1,5 +1,6 @@
 ### Getting Started ( _Currently under development_)
 
+This app gives small Idea about redux state.
 There are two methods for getting started with this repo.
 
 #### Familiar with Git?
